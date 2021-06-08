@@ -15,11 +15,11 @@
 @stop
 
 @section('title')
-	Dashboard
+
 @stop
 
 @section('description')
-	Vista General
+	Menu Principal
 @stop
 
 @section('container')

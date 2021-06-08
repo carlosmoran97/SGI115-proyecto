@@ -150,26 +150,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="{{ route('app.dashboard') }}"><i class="fa fa-tachometer"></i> <span>Menu Principal</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-calendar-plus-o"></i> <span>Año Electivo</span>
+          <a href="#"><i class="fa fa-calendar-plus-o"></i> <span>Año Academico</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ route('app.period.page') }}">Configuración Año electivo</a></li>
-            <li><a href="{{ route('app.range.page') }}">Periodos por Año electivo</a></li>
+            <li><a href="{{ route('app.period.page') }}">Gestionar Año Academico</a></li>
+            <li><a href="{{ route('app.range.page') }}">Gestionar Periodos</a></li>
           </ul>
         </li>
-        <li><a href="{{ route('app.course.page') }}"><i class="fa fa-book"></i> <span>Materias</span></a></li>
-        <li><a href="{{ route('app.student.page') }}"><i class="fa fa-child"></i> <span>Alumnos</span></a></li>
+        <li><a href="{{ route('app.course.page') }}"><i class="fa fa-book"></i> <span>Gestionar Materias</span></a></li>
+        <li><a href="{{ route('app.student.page') }}"><i class="fa fa-child"></i> <span>Gestionar Alumnos</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-bullseye"></i> <span>Notas</span>
+          <a href="#"><i class="fa fa-bullseye"></i> <span>Gestionar Notas</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ route('app.grade.page') }}">Configuración</a></li>
+            <li><a href="{{ route('app.grade.page') }}">Actividades y Evaluaciones</a></li>
             <li><a href="{{ route('app.grade.ingreso.page') }}">
               Ingreso de notas</a></li>
           </ul>
@@ -205,10 +205,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-      Version 1.1
+      SGI115
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2018 <a href="#">devBrainX</a>.</strong> All rights reserved.
+    <strong>Sistemas de Informacion Gerencial <a href="#">2021</a>.</strong> SGI115.
   </footer>
 
 </div>

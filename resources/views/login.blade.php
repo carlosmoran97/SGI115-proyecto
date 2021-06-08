@@ -18,15 +18,26 @@
   <link rel="stylesheet" href="{{ asset('plugins/iCheck/square/blue.css') }}">
 
 </head>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-   <a href="{{ route('app.login.form') }}"><b>SYS</b>GRA</a>
-  </div>
-  <!-- /.login-logo -->
-  <div class="login-box-body">
-    <p class="login-box-msg">Iniciar Sesión</p>
 
+<body class="hold-transition login-page">
+<br>
+  <div class="login-logo">
+    <a href="{{ route('app.login.form') }}"><b>Complejo Educativo "Jose Marti"</b></a>
+  
+   </div>
+   <div style="width: 30%; margin:auto;">
+
+  
+  <!-- /.login-logo -->
+  
+  <div class="login-box-body">
+    <p class="login-box-msg" >Iniciar Sesión</p>
+    
+  <div class="login-logo">
+    <img id="profile-img"  style="max-width:100px"  src="{{ asset('img/jose_marti.jpg') }}"/>
+   
+  </div>
+   
     <form action="{{ route('app.login.submit') }}" method="post">
       {{ csrf_field() }} 
       <div class="form-group has-feedback {{ $errors->has('email') ? 'has-error':'' }}">
@@ -71,9 +82,11 @@
     <!-- /.social-auth-links -->
 
     <!--<a href="#">Olvide mi contraseña</a><br>-->
-
-
+  
   </div>
+  </div>
+</div>
+
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
