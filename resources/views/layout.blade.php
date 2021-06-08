@@ -10,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-   <title>SYSGRA</title>
+   <title>Complejo Educativo Jose Marti</title>
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ asset('css/bootstrapValidator.css') }}">
@@ -42,9 +42,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Logo -->
     <a href="{{ route('app.dashboard') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>S</b>YS</span>
+      <span class="logo-mini"><b>C.</b>J.M</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>SYS</b>GRA</span>
+      <span class="logo-lg">C.E. <b>"Jose </b>Marti"</span>
     </a>
 
     <!-- Header Navbar -->
@@ -120,8 +120,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </li>
             </ul>
           </li>
-          <!-- Control Sidebar Toggle Button 
-
+          
         </ul>
       </div>
     </nav>
@@ -149,19 +148,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <ul class="sidebar-menu">
         <li class="header">MENU</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="{{ route('app.dashboard') }}"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
+        <li class="active"><a href="{{ route('app.dashboard') }}"><i class="fa fa-tachometer"></i> <span>Menu Principal</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-calendar-plus-o"></i> <span>Periódos</span>
+          <a href="#"><i class="fa fa-calendar-plus-o"></i> <span>Año Electivo</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ route('app.period.page') }}">Configuración</a></li>
-            <li><a href="{{ route('app.range.page') }}">Rangos</a></li>
+            <li><a href="{{ route('app.period.page') }}">Configuración Año electivo</a></li>
+            <li><a href="{{ route('app.range.page') }}">Periodos por Año electivo</a></li>
           </ul>
         </li>
-        <li><a href="{{ route('app.course.page') }}"><i class="fa fa-book"></i> <span>Cursos</span></a></li>
+        <li><a href="{{ route('app.course.page') }}"><i class="fa fa-book"></i> <span>Materias</span></a></li>
         <li><a href="{{ route('app.student.page') }}"><i class="fa fa-child"></i> <span>Alumnos</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-bullseye"></i> <span>Notas</span>
