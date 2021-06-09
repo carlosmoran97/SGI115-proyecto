@@ -148,9 +148,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <ul class="sidebar-menu">
         <li class="header">MENU</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="{{ route('app.dashboard') }}"><i class="fa fa-tachometer"></i> <span>Menu Principal</span></a></li>
+        <li class="active"><a href="{{ route('app.dashboard') }}"><i class="fa fa-list-ul"></i> <span>Menu Principal</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-calendar-plus-o"></i> <span>Año Academico</span>
+          <a href="#"><i class="fa fa-calendar"></i> <span>Año Academico</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -163,9 +163,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li><a href="{{ route('app.course.page') }}"><i class="fa fa-book"></i> <span>Gestionar Materias</span></a></li>
         <li><a href="{{ route('app.student.page') }}"><i class="fa fa-child"></i> <span>Gestionar Alumnos</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-bullseye"></i> <span>Gestionar Notas</span>
+          <a href="#"><i class="fa fa-pencil-square-o"></i> <span>Gestionar Notas</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+              <i class="far fa-edit"></i>
             </span>
           </a>
           <ul class="treeview-menu">
