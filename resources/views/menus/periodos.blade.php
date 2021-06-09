@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('title')
-	Periódos
+	Años Academicos
 @stop
 
 @section('description')
-	Configuración
+Gestión de años
 @stop
 
 @section('container')
@@ -23,7 +23,7 @@
               <div class="tab-pane active" id="tab_1">
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Lista de Periódos</h3>
+                  <h3 class="box-title">Lista de Años Academico</h3>
                 </div>
                <div class="box-body">
                   <table id="tblPeriodos" class="table table-bordered table-hover" width="100%">

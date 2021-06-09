@@ -38,7 +38,7 @@
             <ul class="nav nav-tabs" id="myTab">
               <li class="active"><a href="#tab_1" data-toggle="tab">Listado</a></li>
               <li><a href="#tab_2" data-toggle="tab">Nuevo</a></li>
-              <li><a href="#tab_3" data-toggle="tab">Asignación de Estudiantes</a></li>
+              <li><a href="#tab_3" data-toggle="tab">Asignación de Estudiantes a Materias</a></li>
 
             </ul>
             <div class="tab-content">

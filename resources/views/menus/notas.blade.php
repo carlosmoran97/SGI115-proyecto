@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('title')
-	Notas
+	Evaluaciones y Actividades
 @stop
 
 @section('description')
-	Configuración
+	Gestionar actividades
 @stop
 
 @section('container')
@@ -25,7 +25,7 @@
               <div class="tab-pane active" id="tab_1">
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Lista de Notas</h3>
+                  <h3 class="box-title">Lista de Actividades</h3>
                 </div>
                <div class="box-body">
                   <table id="tblNotas" class="table table-bordered table-hover" width="100%">
@@ -35,7 +35,7 @@
                        <th></th>
                        <th>Nombre</th>
                        <th>Descripción</th>
-                       <th>Curso</th>
+                       <th>Materia</th>
                        <th></th>
                      </tr>
                    </thead>
@@ -59,12 +59,12 @@
                         <label for="Curso">Curso</label>
                         <select class="form-control" style="width:100%;" id="Curso" name="Curso" required>
                         @if(count($cursos)>0)
-                            <option value="">Seleccione curso</option>
+                            <option value="">Seleccione materia</option>
                           @foreach($cursos as $cur)
                             <option value="{{ $cur->id }}">{{ $cur->nombre }}</option>
                           @endforeach
                         @else
-                          <option value="">No hay cursos registrados</option>
+                          <option value="">No hay materias registrados</option>
                         @endif
                         </select>
                       </div>
@@ -90,7 +90,7 @@
               <div class="tab-pane" id="tab_3" >
                 <div class="box">
                     <div class="box-header with-border">
-                      <h3 class="box-title">Agregar Sub Notas a <span id="NombreNota"></span></h3>
+                      <h3 class="box-title">Agregar Sub Evaluaciones a <span id="NombreNota"></span></h3>
                     </div>
                     <div class="box-body">
                         <form role="form" method="POST" id="FormSubNota">

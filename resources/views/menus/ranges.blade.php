@@ -5,11 +5,11 @@
 @stop
 
 @section('title')
-	Rangos de Periódos
+	Periódos Academicos
 @stop
 
 @section('description')
-	Gestión de Rangos
+	Gestión de periodos
 @stop
 
 @section('container')
@@ -27,7 +27,7 @@
               <div class="tab-pane active" id="tab_1">
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Lista de Rangos</h3>
+                  <h3 class="box-title">Lista de Periodos</h3>
                 </div>
                <div class="box-body">
                   <table id="tblRangos" class="table table-bordered table-hover" width="100%">
@@ -39,7 +39,7 @@
                        <th>Duración(semanas)</th>
                        <th>Fecha de Inicio</th>
                        <th>Fecha de Fin</th>
-                       <th>Periódo</th>
+                       <th>Año</th>
                        <th></th>
                      </tr>
                    </thead>

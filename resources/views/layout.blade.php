@@ -165,7 +165,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li class="treeview">
           <a href="#"><i class="fa fa-pencil-square-o"></i> <span>Gestionar Notas</span>
             <span class="pull-right-container">
-              <i class="far fa-edit"></i>
+              <i class=""></i>
             </span>
           </a>
           <ul class="treeview-menu">

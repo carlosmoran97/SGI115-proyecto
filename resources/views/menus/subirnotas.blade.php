@@ -5,7 +5,7 @@
 @stop
 
 @section('description')
-	Ingreso de Notas
+	Gestionar Notas
 @stop
 
 @section('container')
@@ -15,7 +15,7 @@
 				<div class="box box-solid">
 					<div class="box-header with-border">
 						<i class="fa fa-book"></i>
-						<h3 class="box-title">Cursos</h3>
+						<h3 class="box-title">Materias</h3>
 						<div class="box-tools pull-right">
 						<div class="form-group">
 							<select name="PeriodosCb" id="PeriodosCb" class="form-control" style="font-size: 17px;">
@@ -54,7 +54,7 @@
 	    	 <div class="alert alert-warning alert-dismissible">
 			    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
 			    <h4><i class="icon fa fa-warning"></i> Advertencia!</h4>
-			       No existen cursos registrados para este periódo
+			       No existen materias registrados para este periódo
 			</div>
 	    </div>
 		   

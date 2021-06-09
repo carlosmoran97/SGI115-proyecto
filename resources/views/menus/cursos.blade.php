@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('title')
-	Cursos
+	Materias
 @stop
 
 @section('description')
-	Gestión de Cursos
+	Gestión de materias
 @stop
 
 @section('container')
@@ -23,7 +23,7 @@
               <div class="tab-pane active" id="tab_1">
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Lista de Cursos</h3>
+                  <h3 class="box-title">Lista de Materias</h3>
                     
                 </div>
                <div class="box-body">
@@ -34,7 +34,7 @@
                        <th></th>
                        <th>Nombre</th>
                        <th>Descripción</th>
-                       <th>Periódo</th>
+                       <th>Año</th>
                        <th></th>
                      </tr>
                    </thead>
